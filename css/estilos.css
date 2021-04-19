@@ -1,0 +1,10 @@
+#
+.contenedor {
+    display: grid;
+    height: 100vh;
+    padding: 60px;
+    background-color: rgb(104, 67, 141);
+    grid-template-columns: repeat(5, minmax(150px,1fr));
+    grid-template-rows: repeat(3, minmax(150px, 1fr));
+    gap: 20px;
+}
